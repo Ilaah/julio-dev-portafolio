@@ -13,16 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if(document.querySelector('#typed-text')) {
         new Typed('#typed-text', {
             strings: [
-                'Experto en Laravel', 
-                'Experto en WordPress', 
-                'E-commerce Industrial',
-                'Soluciones a Medida'
+                'Impulsa tus Ventas', 
+                'Genera Confianza',
+                'Escala tu Negocio'
             ],
-            typeSpeed: 50,
+            typeSpeed: 40,
             backSpeed: 30,
             backDelay: 2000,
             loop: true,
-            cursorChar: '|' // El cursor parpadeante
+            cursorChar: '|'
         });
     }
 
